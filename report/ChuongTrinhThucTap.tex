@@ -1,12 +1,16 @@
 \section{Chương trình thực tập}
 
-% \thispagestyle{empty}
+\thispagestyle{empty}
 
-
-\includepdf[pages=-,pagecommand={\thispagestyle{empty}}]{form/formD2.pdf}
-
+\IfFileExists{form/formD2.pdf}{
+  \includepdf[pages=-,pagecommand={\thispagestyle{empty}}]{form/formD2.pdf}
+}{
+  \begin{center}
+  \vspace*{2cm}
+  \textit{Đính kèm biểu mẫu D2 tại đây}
+  \end{center}
+}
 
 \thispagestyle{fancy}
-\setcounter{page}{\thepage}
 
 \endinput

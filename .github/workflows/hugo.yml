@@ -34,7 +34,7 @@ jobs:
 
   build-pdf:
     runs-on: ubuntu-latest
-    needs: build-deploy
+    # needs: build-deploy
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
