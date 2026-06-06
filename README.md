@@ -51,6 +51,10 @@ brew install --cask mactex
 # Then same commands as above
 ```
 
+### Adding D2 and D3 form
+
+To include the D2 and D3 form. Please add ``formD2.pdf`` and ``formD3.pdf`` in to ``/report/form/...``
+
 ## Project Structure
 
 ```
